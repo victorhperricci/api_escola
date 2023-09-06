@@ -38,7 +38,9 @@ class UserController {
         });
       }
 
-      const user = await User.findByPk(id);
+      const user = await User.findByPk(id, {
+        attributes: ['id', 'nome', 'email'],
+      });
 
       if (!user) {
         return res.status(400).json({
