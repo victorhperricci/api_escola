@@ -1,0 +1,8 @@
+/*
+ em cada controller até 5 métodos
+index -> lista todos
+show -> lista um
+create -> cria
+update -> altera
+delete -> deleta
+*/
